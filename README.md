@@ -42,6 +42,9 @@ The Algorithms Tested:
 - MultiLevel Dijkstra
 - PLL
 
+AI use decleration:
+Since the idea behind the project is to analyse how the algorithms build trees and visualize and also due to our lack of prior knowledge about the different algorithm types, we had some amount of AI assistance while implementing parts 4-8.
+
 The Methodology is as follows: we load all 5 datasets of different sizes from networkreposiory.com, afterwards we run each dataset through our 5 algorithms. As each algorithm runs snapshots are taken at certain intervals to obtain 20 snapshots of the tree as it grows. We also kept track of runtime for each. The runtimes for each dataset/algorith combo were saved in a table and graphed to visualize the complexity growth of each algorithm. The snapshots previously taken were then sliced together to make videos allowing us to see how the trees are formed by iteration.
 
 The results of the runtime table, the colab notebook, the presentation slides, and the videos are attached in this repository.
